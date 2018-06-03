@@ -40,7 +40,6 @@ INSTALLED_APPS = [
 	'accounts',
 	'users',
 	'crispy_forms',
-	'pages'
 ]
 
 MIDDLEWARE = [
