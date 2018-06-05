@@ -1,0 +1,27 @@
+.img1 {
+    background-image: url('/static/images/1.jpg');
+    min-height: 500px;
+    /*opacity: 0.3;*/
+    color: black;
+}
+
+.img2 {
+    background-image: url('/static/images/2.jpg');
+    min-height: 500px;
+}
+
+.img3 {
+    background-image: url('/static/images/3.jpg');
+    min-height: 700px;}
+
+    /*Creating Parallax Effect*/
+.img1, .img2, .img3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*.white-font {
+    color: red;
+}*/
